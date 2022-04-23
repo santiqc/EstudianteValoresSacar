@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Estudiante</title>
+</head>
+
+<body id="body">
+    
+
+    <div class="div" id="container">
+        <h1 style="text-align: center;">Hola, Bienvenido</h1>
+
+    <input type="text" id="name" placeholder="Nombre" " />
+    <br />
+    <input type="number" id="noteOne" placeholder="Nota 1" min="1" max="5" required />
+    <br />
+    <input type="number" id="noteTwo" placeholder="Nota 2" min="1" max="5" required />
+    <br />
+    <input type="button" id="button1" value="Calcular Honor" />
+    <input type="button" id="button2" value="Calcular Si Gano" />
+    <input type="button" id="button3" value="Calcular puede recuperar" />
+    <input type="button" id="button4" value="Calcular pierde" />
+
+    <p id="paragraph"></p>
+
+    <div class="container-options">
+        <select name="BackgroundChanger" id="mySelection" onchange="colorChanger()">
+            <option value="aliceblue" >Default</option>
+            <option value="red">rojo</option>
+            <option value="blue">azul</option>
+            <option value="green">verde</option>
+      
+
+        <!-- <input type="radio" name="color" id="" />
+        <input type="radio" name="" id="" />
+        <input type="radio" name="" id="" />
+        <input type="radio" name="" id="" /> -->
+    </div>
+
+    </div>
+    
+   
+
+    </select>
+    <script src="app.js"></script>
+</body>
+
+</html>
